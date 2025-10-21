@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# demoura-chatbot-ai
+AI-powered chatbot for de.amoura hijab business. Built with Next.js, Google Gemini, and Vercel AI SDK.
+## 🚀 Tech Stack
 
-First, run the development server:
+| Komponen | Teknologi |
+|-----------|------------|
+| Frontend / Backend | [Next.js 15 (App Router)](https://nextjs.org) |
+| AI Engine | [Google Gemini API](https://makersuite.google.com) |
+| Middleware AI | [Vercel AI SDK](https://sdk.vercel.ai) |
+| Integrasi Sosial Media | [Instagram Graph API (Meta)](https://developers.facebook.com/docs/graph-api) |
+| Deployment | [Vercel Platform](https://vercel.com) |
+
+---
+
+## 🎯 Fitur Utama
+
+- 🤖 **Chatbot AI Interaktif**  
+  Membalas pesan pelanggan secara otomatis menggunakan model Gemini AI.  
+
+- 💌 **Integrasi Instagram DM (Graph API)**  
+  Bot aktif di akun bisnis *de.amoura*, menerima dan membalas pesan dari pelanggan.  
+
+- 🧠 **Pemrosesan Bahasa Natural (NLP)**  
+  Didesain untuk gaya bicara lembut, sopan, dan sesuai karakter brand hijab muslimah.  
+
+- 📊 **Logging & Analytics (Opsional)**  
+  Semua interaksi bisa disimpan ke Supabase/Firebase untuk keperluan analisis performa chatbot.  
+
+---
+
+## ⚙️ Instalasi & Setup
+
+1️⃣ Clone Repository
 
 ```bash
+git clone https://github.com/kawreenazzhra/deamoura-chatbot-ai.git
+cd deamoura-chatbot-ai
+
+2️⃣ Install Dependencies
+npm install
+
+3️⃣ Konfigurasi Environment Variables
+GEMINI_API_KEY=YOUR_GOOGLE_GEMINI_API_KEY
+META_ACCESS_TOKEN=YOUR_META_PAGE_ACCESS_TOKEN
+META_VERIFY_TOKEN=YOUR_META_VERIFY_TOKEN
+
+💻 Menjalankan Proyek Secara Lokal
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Aplikasi akan berjalan di:
+http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+>>>>>>> 5ddc401914ef93d70ca75a85d16313675e2b637b
